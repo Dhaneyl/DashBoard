@@ -1,0 +1,5 @@
+export * from './homePage'
+export * from './list'
+export * from './login'
+export * from './newPage'
+export * from './singlePage'
