@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, NavLink, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home, List, Login, New, Single } from "./pages";
 
 

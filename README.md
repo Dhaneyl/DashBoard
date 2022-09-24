@@ -8,3 +8,6 @@ npm i react-router-dom
 
 # To install MUI
 npm install @mui/material @emotion/react @emotion/styled
+
+# Box shadow generator
+https://cssgenerator.org/box-shadow-css-generator.html
