@@ -1,13 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { userInputs, productInputs } from "./formSource";
 import { Home, List, Login, New, Single } from "./pages";
+import './style/dark.scss';
+import { useContext } from "react";
+import { DarkModeContext } from "./context/darkModeContext";
 
 
 
 
 function App() {
+  const { darkMode } = useContext(DarkModeContext);
   return (
-    <div className="App">
+    <div className={darkMode ? "app dark" : "app"}>
     <BrowserRouter>
       <Routes>
       {/* slash home route */}
